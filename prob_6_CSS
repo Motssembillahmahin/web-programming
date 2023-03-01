@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+   text-align: center;
+}
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+}
+.same{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.col-3{
+    width: 30%;
+    display: block;
+    padding-left: 100px;
+}
+.col-7{
+    width: 70%;
+    display: block;
+}
+input{
+    display: block; 
+    width: 70% !important;
+    padding: 5px 10px;
+}
+.gender{
+    display: flex;
+}
+.radiogroup{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.radio{
+    display: flex;
+    gap: 5px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(16, 69, 131);
+    border: 1px solid rgb(40, 53, 53);
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
