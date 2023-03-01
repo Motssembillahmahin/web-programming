@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+    <h1>Personal Details</h1>
+    <form action="#">
+        <div class="name same"> 
+            <label class="col-3" for="">Name :</label>
+            <input class="col-7" type="text" required>
+        </div>
+        <div class="email same">
+            <label class="col-3" for="">Email :</label>
+            <input class="col-7" type="email" required>
+        </div>
+        <div class="phone same">
+            <label class="col-3" for="">Phone number :</label>
+            <input class="col-7" type="tel" required>
+        </div>
+        <div class="pass same">
+            <label class="col-3" for="">Password :</label>
+            <input class="col-7" type="password" required>
+        </div>
+        <div class="gender">
+            <label class="col-3" for="" id = "gen">Gender :</label>
+           <div class="radiogroup">
+                <div class="radio">
+                    <input  type="radio" id = "male" name = "gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="radio">
+                    <input type="radio" id = "female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+           </div>
+        </div>
+        <div class="text-center">
+            <button class="green_color" type="submit">submit</button>
+        </div>
+    </form>
+</body>
+</html>
