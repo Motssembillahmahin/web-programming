@@ -1,0 +1,9 @@
+CREATE TABLE Semester_Reg (
+ID int(11) NOT NULL,
+Name varchar(255) NOT NULL,
+Session varchar(255) NOT NULL,
+Phone_No varchar(255) DEFAULT NULL,
+City varchar(255) DEFAULT NULL,
+Gender enum('Male','Female') NOT NULL,
+PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;

@@ -1,0 +1,6 @@
+CREATE TABLE Stu_Reg (
+    ID VARCHAR(30) PRIMARY KEY NOT NULL,
+    Name TEXT,
+    Image VARCHAR(400),
+    Password VARCHAR(20) NOT NULL
+);
