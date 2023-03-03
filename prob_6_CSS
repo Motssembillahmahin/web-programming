@@ -1,4 +1,12 @@
-*{
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
     box-sizing: border-box;
 }
 h1{
@@ -52,3 +60,25 @@ button{
 .text-center{
     text-align: center;
 }
+    </style>
+</head>
+<body>
+    <h1>Personal Details</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<label for="gender">Gender:</label>
+		<input type="radio" id="male" name="gender" value="male" required>
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female" required>
+		<label for="female">Female</label>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>
